@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VRF App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="emergency-page">
+    <section class="content">
+      <div class="emergency-page-header">
+        <div class="emergency-page-header-background"></div>
+        <p>You've requested an</p>
+        <h2>Emergency Assistance</h2>
+      </div>
+      <div class="emergency-info">
+        <div class="dispatch">
+          <p>Hold tight, dispatch on your way</p>
+          <div class="phone-container">
+            <img src="img/phone.png">
+          </div>
+        </div>
+        <div class="location">
+          <div class="small-label">
+            <img src="img/location.png">
+            <p>DETECTED LOCATION</p>
+          </div>
+          <div class="location-info">
+            <p>Dipolog, Zamboanga del Norte</p>
+            <img src="img/right-arrow.png">
+          </div>
+          <div class="location-map" style="width: 100%">
+            <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=8%C2%B035'07.7%22N%20123%C2%B020'43.2%22E+(Your%20Location)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="emergency-footer">
+    <form action="home.html">
+      <button type="submit">Cancel Emergency</button>
+      <button type="submit">Out of Emergency</button>
+    </form>
+  </div>
+  <!-- <script src="js/color-scheme.js" defer></script> -->
+</body>
+</html>
